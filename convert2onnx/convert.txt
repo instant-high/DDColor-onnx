@@ -1,0 +1,6 @@
+run 'ddcolor2onnx.py' from original ddcolor base directory
+
+eg:
+python ddcolor2onnx.py --model_path pretrain/ddcolor_modelscope.pth --onnx_path pretrain/ddcolor_modelscope.onnx --input_size 512 --model_size large
+
+converted onnx models will be saved in pretrain folder
