@@ -12,5 +12,3 @@ conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
 pip uninstall onnxuntime
 pip install onnxruntime-gpu
 
-link to download converted deoldify.onnx from this repository:
-https://github.com/KeepGoing2019HaHa/AI-application/tree/master/deoldify/ncnn
