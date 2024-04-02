@@ -7,6 +7,14 @@ Commandline version : python ddcolorize.py --image "1.jpg" --output "1_ddcolor.j
 
 or try the simple GUI version.
 
-Visit https://github.com/piddnad/DDColor to download and convert the pretrained models yourself.
+Visit
+
+https://github.com/piddnad/DDColor
+
+to download and convert the pretrained models yourself.
 
 All credits to the original DDColor authors.
+
+ONNX converted models:
+
+https://drive.google.com/file/d/1R05w65qEWW_H4lcW1NdfcqAEPdWvjqEW/view?usp=sharing
