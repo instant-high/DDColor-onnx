@@ -75,8 +75,10 @@ def process_image(file_path):
     else:
         new_height = max_height
         new_width = int(new_height * aspect_ratio)
-    
-    img_colorized = img_colorized.resize((new_width, new_height), Image.ANTIALIAS)
+
+    # img_colorized = img_colorized.resize((new_width, new_height), Image.ANTIALIAS)
+    # ANTIALIAS was removed in Pillow 10.0.0
+    img_colorized = img_colorized.resize((new_width, new_height), Image.LANCZOS)
     
     # Create a PhotoImage object to display in the Tkinter window
     img_colorized_tk = ImageTk.PhotoImage(img_colorized)
